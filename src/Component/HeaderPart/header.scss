@@ -1,0 +1,48 @@
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+    gap: 30px;
+    .head_content{
+        width: 35%;
+        color: #fff;
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    .head_search{
+        width: 420px;
+        height: 50px;
+          display: flex;
+          justify-content: space-between;
+          text-align: center;
+          align-items: center;
+          background-color: #fff;
+          color: white;
+        input{
+            padding: 15px;
+            width: 75%;
+            border: none;
+            outline: none;
+        }
+        span{
+            margin: 0 auto;
+            width: 22%;
+            height: 80%;
+            background-color: red;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, #39cfca 0%, #3279bb 100%);
+        }
+
+    }
+}

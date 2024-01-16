@@ -1,0 +1,39 @@
+
+.wishlist_cards{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 40px 0px;
+    .wishlist_card{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 300px;
+        height: 260px;
+        background-color: rgba(188, 238, 255, 0.582);
+        .image{
+            font-size: 50px;
+        }
+        .name{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .icons{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            padding-bottom: 30px ;
+            color: rgb(19, 89, 211);
+            .heart{
+                border: 1px solid black;
+                border-radius: 50%;
+            }
+         i:hover {
+            cursor: pointer;
+            color: rgb(19, 89, 211);
+        }
+        }
+    }
+}
